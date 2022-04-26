@@ -4,6 +4,7 @@
 MainComponent::MainComponent()
 {
     addAndMakeVisible(toggleButton);
+    addAndMakeVisible(toggleButton2);
     setSize (600, 400);
 }
 
@@ -28,4 +29,5 @@ void MainComponent::resized()
     // If you add any child components, this is where you should
     // update their positions.
     toggleButton.setBounds(10, 10, 30, 30);
+    toggleButton2.setBounds(50, 50, 50, 50);
 }
